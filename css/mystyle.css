@@ -1,0 +1,104 @@
+/* Global*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  zoom: 120%;
+}
+
+/*Utility*/
+.read-btn {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+/*nav menus*/
+nav {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-item,
+.menu-item {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: black;
+  margin-right: 30px;
+}
+.search-item,
+.arrows-item {
+  color: black;
+  margin-right: 30px;
+}
+.renew-item {
+  color: black;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #ffe100;
+}
+.renew-item:hover {
+  background-color: #ffe100;
+}
+.subscribe-item {
+  background-color: black;
+  color: white;
+  padding: 17px;
+  margin-right: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+.subscribe-item:hover {
+  background-color: #ffe100;
+}
+.menu-item,
+.renew-item,
+.search-item {
+  display: none;
+}
+nav.menu {
+  height: 50px;
+  background-color: white;
+}
+
+.big-logo {
+  height: 40px;
+  padding-top: 10px;
+  padding-top: 5px;
+  display: none;
+}
+.small-logo {
+  height: 40px;
+  margin-left: 15px;
+}
+
+/*Main news*/
+.main-news-item {
+  position: relative;
+  margin: auto 10px;
+}
+.main-news-text {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
